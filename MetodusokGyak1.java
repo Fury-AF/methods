@@ -4,7 +4,7 @@ public class MetodusokGyak1 {
         String kimenet="Az első 10 szám összege:"+ osszeg+"\n";
 
         int szam1=7 , szam2=4;
-        kiir("%d+%d= %d\n".formatted(szam1, szam2, osszead(szam1,szam2));
+        kiir("%d+%d= %d\n".formatted(szam1, szam2, osszeg));
     }
     private static int elso10SzamOsszege(){
         int osszeg=0;
