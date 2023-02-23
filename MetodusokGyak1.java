@@ -5,8 +5,7 @@ public class MetodusokGyak1 {
     public static void main(String[] args) {
     feladatok();
 
-
-    };
+    }
     private static void feladatok(){
         f1_Elso10SzamOsszegeKiiras();
     }
@@ -22,7 +21,7 @@ public class MetodusokGyak1 {
 
 
    /*Amit ki kell szervezni */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         int osszeg=elso10SzamOsszege();
         String kimenet="Az első 10 szám összege:"+ osszeg+"\n";
@@ -43,7 +42,7 @@ public class MetodusokGyak1 {
        kimenet=String.format("s% %.4f\n", s,gyok);
        kiir(kimenet);
 
-    }
+    }*/
     private static int elso10SzamOsszege(){
         int osszeg=0;
         for (int i =0 ; i<10 ;i++){
