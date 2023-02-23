@@ -5,6 +5,15 @@ public class MetodusokGyak1 {
 
         int szam1=7 , szam2=4;
         kiir("%d+%d= %d\n".formatted(szam1, szam2, osszeg));
+
+
+
+        int szam3=14,szam4=8;
+        int osszeg2=osszead(osszead(szam1,szam2),osszead(szam3,szam4));
+
+        kiir("%d+%d+%d+%d= %d\n".formatted(szam1,szam2,szam3,szam4,osszeg2));
+
+
     }
     private static int elso10SzamOsszege(){
         int osszeg=0;
