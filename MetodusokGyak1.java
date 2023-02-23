@@ -1,6 +1,10 @@
 public class MetodusokGyak1 {
     public static void main(String[] args) {
-        kiir("%d+%d= %d\n"+osszead(3,4)+','+elso10SzamOsszege());
+        int osszeg=elso10SzamOsszege();
+        String kimenet="Az első 10 szám összege:"+ osszeg+"\n";
+
+        int szam1=7 , szam2=4;
+        kiir("%d+%d= %d\n".formatted(szam1, szam2, osszead(szam1,szam2));
     }
     private static int elso10SzamOsszege(){
         int osszeg=0;
